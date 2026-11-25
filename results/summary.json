@@ -1,0 +1,33 @@
+{
+  "best_hyperparameters": {
+    "hidden_sizes": [
+      8
+    ],
+    "activation": "tanh",
+    "learning_rate": 0.003
+  },
+  "baseline_validation_accuracy": 0.9560439586639404,
+  "best_validation_accuracy": 0.9890109896659851,
+  "unique_configurations": 117,
+  "final_epochs": 60,
+  "final_seeds": [
+    303,
+    404,
+    505
+  ],
+  "test_results": {
+    "Базова": [
+      0.9561403393745422,
+      0.9473684430122375,
+      0.8771929740905762
+    ],
+    "Оптимізована": [
+      0.9649122953414917,
+      0.9561403393745422,
+      0.9824561476707458
+    ]
+  },
+  "baseline_test_mean": 0.926900585492452,
+  "optimized_test_mean": 0.9678362607955933,
+  "difference_percentage_points": 4.0935675303141235
+}
